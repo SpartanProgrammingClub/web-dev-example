@@ -1,0 +1,70 @@
+/* This file is used to style everything!
+Anything preceded by nothing (html, body, div) are built into html, theyre called tags
+Anything preceded by a . is a user-defined class
+Anything preceded by a # is a user-defined ID. 
+Multiple elements can be part of the same class, only one element can have an ID; they are unique */
+
+html {
+  background-color: #bd4844;
+  font-size: 130%;
+}
+
+.title {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+body {
+  text-align: center;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+}
+
+div {
+  border-radius: 25px;
+  padding: 0px 5px 5px;
+}
+
+.def-html {
+  background-color: #ff8453;
+}
+
+.def-css {
+  background-color: #2ca4d4;
+}
+
+.def-js {
+  background-color: #f7df1e;
+}
+
+.magic-div {
+  background-color: #5c65a3;
+}
+
+.def-django {
+  background-image: linear-gradient(to right, #306998, #ffd43b);
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 150%;
+  border-radius: 5px;
+}
+
+/* When the mouse hovers over the button, it changes colour! */
+#js-exmaple:hover {
+  filter: hue-rotate(90deg);
+}
+
+#toggle-css:hover {
+    filter: hue-rotate(-90deg);
+}
