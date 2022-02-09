@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Programming Club: Web Dev Example 1</title>
+    <script src="/toggle-css.js" defer></script>
+    <script src="/js-example.js" defer></script>
+  </head>
+
+  <body>
+    <h1 class="title">Programming Club: Web Dev Example 1</h1>
+
+    <div class="def-html center">
+      <h2>HTML</h2>
+
+      <p>
+        This is basic HTML. HTML stands for hypertext markup language. This is
+        how webpages are formed on their most basic level. HTML allows us to
+        categorize content, which we can later customize. Currently, this page
+        has no CSS. What you are seeing is pure HTML.
+      </p>
+    </div>
+
+    <div class="def-css center">
+      <h2>CSS</h2>
+
+      <p>
+        CSS stands for cascading style sheets. CSS adds style to your
+        webpage—colour, position, layouts, and basically everything else.
+      </p>
+<!--       Creates a button with the unique name "toggle-css". The name makes it easy to customize/style -->
+      <button id="toggle-css" type="button">Toggle CSS</button>
+    </div>
+
+    <div class="def-js center">
+      <h2>Javascript</h2>
+
+      <p>
+        Unlike HTML and CSS, javascript is a real programming language. It is
+        not related to Java. Javascipt, or JS, is used to add logic to webpages.
+        This could be actions performed when clicking a button, or to change the
+        page on the fly. The button in the CSS section is made using javascript,
+        the code can be seen in the <strong>toggle-css.js</strong> 
+        file.
+      </p>
+<!--       Creates a button with the unique name "js-exmaple". The name makes it easy to customize/style -->
+      <button id="js-exmaple" type="button">Click Me!</button>
+    </div>
+
+<!--     This div is part of the hidden class. we use javascript to hide anything part of this class! -->
+    <div class="magic-div hidden center">
+      <h2>Magic!!</h2>
+      <p>
+        This was originally invisible, but I used javascript to interact with my
+        CSS and HTML
+      </p>
+    </div>
+
+    <div class="def-django hidden center">
+      <h2>Django - Backend</h2>
+      <p>
+        Django is a python framework that we will be using to implement basic
+        back end features. Primarily, this will look like storing user data.
+      </p>
+    </div>
+  </body>
+</html>
